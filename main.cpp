@@ -15,4 +15,5 @@ int main() {
       if (temp == searchWord) {countWord++;}
    }
    std::cout << countWord;
+   words.close ();
 }
